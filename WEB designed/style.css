@@ -1,0 +1,241 @@
+body {
+  font-family: tahoma;
+  font-size: 28px;
+  width: 1000px;
+  margin: 0px auto;
+  background-image: url("bautroi.jpg");
+}
+#header {
+  width: 1000px;
+  height: 70px;
+  background-image: url("f.jpg");
+  color: rgb(20, 227, 20);
+  text-align: center;
+  line-height: 70px;
+}
+#header #logo {
+  width: 70px;
+  height: 70px;
+  float: left;
+}
+#banner {
+  height: 50px;
+  width: 1000px;
+  background-image: url("a.jpg");
+}
+#main {
+  min-height: 565px;
+  width: 1000px;
+  background-color: rgb(249, 248, 248);
+  background-image: url("main2.jpg");
+}
+#main #top {
+  min-height: 315px;
+  color: aqua;
+}
+#main #bot {
+  min-height: 200px;
+}
+#footer {
+  background: rgb(250, 249, 249);
+  min-height: 45px;
+  width: 1000px;
+}
+#header ul {
+  margin: 0px;
+  padding: 0px;
+}
+#header ul li {
+  list-style: none;
+  float: right;
+  width: 90%;
+  font-size: 50px;
+}
+.tag {
+  width: 100%;
+  height: 60px;
+}
+.tag button {
+  width: 5%;
+  height: 50px;
+  font-size: 10px;
+  margin-left: 10%;
+  margin-right: 2%;
+}
+#footer ul {
+  margin: 0px;
+  padding: 0px;
+}
+#footer ul li {
+  list-style: none;
+  float: left;
+  width: 65%;
+  font-size: 18px;
+  color: rgb(248, 2, 72);
+  margin-left: 25%;
+  margin-right: 30%;
+}
+
+#nd {
+  width: 100px;
+  height: 120px;
+  margin-left: 10%;
+  margin-top: 1%;
+  float: left;
+}
+img#nd1 {
+  width: 120px;
+  height: 120px;
+  margin-left: 50%;
+}
+h2 {
+  font-size: x-large;
+  width: 120px;
+  height: 30px;
+  margin-left: 60%;
+  color: rgb(238, 243, 238);
+}
+
+#da {
+  width: 100px;
+  height: 120px;
+  margin-left: 20%;
+  float: left;
+  margin-top: 2%;
+}
+img#da1 {
+  width: 120px;
+  height: 120px;
+  margin-left: 50%;
+}
+h4 {
+  font-size: x-large;
+  width: 120px;
+  height: 30px;
+  margin-left: 70%;
+  color: rgb(239, 245, 239);
+}
+#ndg {
+  width: 100px;
+  height: 120px;
+  margin-right: 17%;
+  margin-top: -0.7%;
+  float: right;
+}
+img#ndg1 {
+  width: 120px;
+  height: 120px;
+  margin-left: 10%;
+}
+h6 {
+  font-size: x-large;
+  width: 180px;
+  height: 30px;
+  margin-left: 10%;
+  color: rgb(250, 254, 250);
+}
+.thongso {
+  width: 90%;
+  height: 25%;
+  position: relative;
+  top: 50%;
+  margin-left: 0px;
+  color: rgb(160, 244, 5);
+}
+#nhietdo {
+  position: relative;
+  right: 34%;
+  margin-top: 165px;
+  float: left;
+}
+#doam {
+  position: relative;
+  left: -4%;
+  margin-top: 165px;
+  float: left;
+}
+#nongdogas {
+  margin-top: 165px;
+  left: 12%;
+  float: right;
+  position: relative;
+}
+
+#bot h1 {
+  width: 200px;
+  height: 225px;
+  display: inline-block;
+  border-style: inset;
+  margin-left: 9.5%;
+}
+#bot h1 h2 {
+  width: 100%;
+  height: 10%;
+  background-color: rgb(229, 229, 223);
+}
+button {
+  width: 60px;
+  height: 30px;
+  margin-left: 10%;
+  font-size: 20px;
+  font-family: revert;
+  margin-right: auto;
+}
+#bot h2 {
+  float: left;
+  margin-left: 18%;
+  margin-top: -13%;
+  font-size: 20px;
+  font-family: tahoma;
+  color: black;
+}
+#bot h3 {
+  float: left;
+  margin-left: 48.5%;
+  margin-top: -13%;
+  font-size: 20px;
+  font-family: tahoma;
+  color: black;
+}
+#bot h4 {
+  float: left;
+  margin-left: 79.5%;
+  margin-top: -13%;
+  font-size: 20px;
+  font-family: tahoma;
+  color: black;
+}
+#time {
+  margin-left: 45%;
+  font-family: tahoma;
+}
+/* CSS cho modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Tối nền khi hiện modal */
+}
+
+.modal-content {
+  background-color: white;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%; /* Kích thước nội dung modal */
+}
+
+.close {
+  color: red;
+  float: right;
+  font-size: 30px;
+  cursor: pointer; /* Biểu tượng nút đóng */
+}
+
+canvas {
+  width: 100% !important;
+  height: 400px; /* Định dạng kích thước canvas cho biểu đồ */
+}
